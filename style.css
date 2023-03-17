@@ -5,7 +5,37 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://wallpaperaccess.com/full/5812274.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/56/32/5mOaqU.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 35px 35px 24px 35px;
+}
+header{
+    color: white;
+    font-size: 20px;
+    font-weight: 150px;
+    grid-gap: 30px;
+    display: flex;
+    font-family: "Verdana";
+    
+}
+.logo{
+    width: 350px;
+    position: absolute;
+    transform: translate(10%,23%);
+}
+
+main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
 }
